@@ -1,4 +1,5 @@
-phpbox
+PHPBox
 ======
 
-PHPBox - A PHP Development Environment
+PHPBox - A PHP Development Environment by Insprinto 
+http://www.insprinto.com
