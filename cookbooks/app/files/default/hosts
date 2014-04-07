@@ -1,5 +1,5 @@
 127.0.0.1 localhost localhost.localdomain myserver
-127.0.0.1 phpbox 
+127.0.0.1 app 
 
 # The following lines are desirable for IPv6 capable hosts
 ::1 ip6-localhost ip6-loopback

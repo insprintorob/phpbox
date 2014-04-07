@@ -16,7 +16,7 @@ cookbook_file "/etc/hosts" do
   mode "0644"
 end
 
-cookbook_file "/etc/apache2/sites-available/default" do
-  source "default"
+cookbook_file "/etc/apache2/sites-available/default.conf" do
+  source "default.conf"
   mode "0644"
 end
