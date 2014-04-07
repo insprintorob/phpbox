@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: devbox
+# Cookbook Name:: app 
 # Recipe:: default
 #
 # Copyright 2013, Insprinto
@@ -16,7 +16,7 @@ cookbook_file "/etc/hosts" do
   mode "0644"
 end
 
-cookbook_file "/etc/apache2/sites-available/default.conf" do
+cookbook_file "/etc/apache2/sites-available/000-default.conf" do
   source "default.conf"
   mode "0644"
 end
