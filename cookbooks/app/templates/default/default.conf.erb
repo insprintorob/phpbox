@@ -1,14 +1,15 @@
 <VirtualHost *:80>
         ServerAdmin webmaster@localhost
 
-        ServerName insprinto 
+        ServerName app 
 
-        DocumentRoot /home/vagrant/projects/insprinto/public
+        DocumentRoot <%= node[:app][:webroot] %>
         <Directory />
                 Options FollowSymLinks
                 AllowOverride None
         </Directory>
-        <Directory /home/vagrant/projects/insprinto/public>
+
+        <Directory <%= node[:app][:webroot] %>>
                 Options Indexes FollowSymLinks MultiViews
                 AllowOverride All 
                 Order allow,deny

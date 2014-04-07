@@ -24,6 +24,7 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "mysql"
     chef.add_recipe "devbox"
     chef.add_recipe "app"
+    chef.add_recipe "restart-servers"
   end
 end
 

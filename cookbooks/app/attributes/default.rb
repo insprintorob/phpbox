@@ -1,1 +1,1 @@
-default['app']['webroot'] = '/home/vagrant/app/public'
+default[:app][:webroot] = '/home/vagrant/app/public'

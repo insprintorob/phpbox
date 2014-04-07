@@ -16,7 +16,9 @@ cookbook_file "/etc/hosts" do
   mode "0644"
 end
 
-cookbook_file "/etc/apache2/sites-available/000-default.conf" do
-  source "default.conf"
-  mode "0644"
+template "/etc/apache2/sites-available/000-default.conf" do
+  source "default.conf.erb"
+  owner "root"
+  group "root"
+  mode 0644
 end

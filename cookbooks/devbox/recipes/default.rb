@@ -67,8 +67,3 @@ execute "enable apache2 mod_rewrite" do
   command "ln -fs /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/rewrite.load"
   action :run
 end
-
-execute "apachectl restart" do
-  command "apachectl restart"
-  action :run
-end
